@@ -21,7 +21,7 @@
 		<package name="com.kh.spring09.entity"/>
 	 -->
 	<typeAliases>
-	
+		<package name="com.sns.mars.entity"/>
 	</typeAliases>
 	
 	

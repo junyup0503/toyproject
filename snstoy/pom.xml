@@ -30,8 +30,8 @@
 	
 	<!-- 복사하면 반드시 변경 -->
 	<groupId>com.sns</groupId>
-	<artifactId>snstoy</artifactId>
-	<name>snstoy</name>
+	<artifactId>mars</artifactId>
+	<name>mars</name>
 	<!-- 복사하면 반드시 변경 -->
 	
 	
@@ -299,6 +299,13 @@
 		    <groupId>io.springfox</groupId>
 		    <artifactId>springfox-swagger2</artifactId>
 		    <version>2.9.2</version>
+		</dependency>
+		
+		<!-- 웹소켓 의존성 -->
+		<dependency>
+		    <groupId>org.springframework</groupId>
+		    <artifactId>spring-websocket</artifactId>
+		    <version>${org.springframework-version}</version>
 		</dependency>
 		
 	</dependencies>

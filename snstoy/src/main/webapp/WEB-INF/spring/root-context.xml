@@ -19,7 +19,7 @@
 		Controller를 제외한 나머지 요소들은 전역 설정파일인 root-context.xml에 등록한다		
 	 -->
 	<mvc:annotation-driven></mvc:annotation-driven>
-	<context:component-scan base-package="com.sns.snstoy" use-default-filters="true">
+	<context:component-scan base-package="com.sns.mars" use-default-filters="true">
 		<context:exclude-filter type="annotation" expression="org.springframework.stereotype.Controller"/>
 	</context:component-scan>
 	
